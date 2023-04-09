@@ -1,0 +1,36 @@
+html, body {
+  width: 270px;
+  font-size: 1.5em;
+}
+
+h1, p {
+  margin: 3% auto;
+}
+
+.header {
+  font-size: .5em;
+}
+
+.hidden {
+  display: none;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1.6rem;
+  cursor: pointer;
+}
+
+.button:hover:active {
+  background-color: #D5E0E0;
+}
+
+.button:hover {
+  background-color: #CFF2F2;
+}
+
+.button {
+  background-color: #E5F2F2;
+}
