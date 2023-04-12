@@ -24,5 +24,12 @@
     },
     "default_title": "Video Speeder",
     "default_popup": "popup/choose_speed.html"
+  },
+
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "video_speeder@addon.com"
+    }
   }
+
 }
