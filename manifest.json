@@ -4,25 +4,25 @@
   "name": "Video Speeder",
   "version": "0.1",
 
-  "description": "Regulates video playback speed",
+  "description": "Basic extension to regulate video playback speed",
   "homepage_url": "https://github.com/kligunov-id/video-speeder",
   "icons": {
     "48": "icons/speeder-48.png",
     "96": "icons/speeder-96.png"
   },
 
-   "permissions": [
+  "permissions": [
     "activeTab",
     "scripting"
   ],
 
-    "action": {
-      "default_icon": {
-        "32":"icons/speeder-32.png",
-        "48":"icons/speeder-48.png",
-        "96": "icons/speeder-96.png"
-      },
-      "default_title": "Video Speeder",
-      "default_popup": "popup/choose_speed.html"
+  "action": {
+    "default_icon": {
+      "32":"icons/speeder-32.png",
+      "48":"icons/speeder-48.png",
+      "96": "icons/speeder-96.png"
+    },
+    "default_title": "Video Speeder",
+    "default_popup": "popup/choose_speed.html"
   }
 }
