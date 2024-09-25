@@ -11,9 +11,10 @@ function listenForClicks() {
 
     // Sends message to the content script
     function choose_speed(tabs) {
+      let playbackRate = buttonTextToPlaybackRate(e.target.textContent)
       browser.tabs.sendMessage(tabs[0].id, {
         command: "set_speed",
-        playbackRate: buttonTextToPlaybackRate(e.target.textContent)
+        playbackRate: playbackRate
       });
       console.log(`[VS]: Message {command: "set_speed", pRate: ${playbackRate}} sent`);
     }
